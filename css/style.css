@@ -1,0 +1,266 @@
+body{
+    font-family: lato,sans-serif;
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#e868c0,#9ef0dd);
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    width: 160px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: black !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: aqua !important;
+}
+.fa-bars{
+    color: black;
+    font-size: 30px !important;
+}
+/*-------------------------section 2------------------------------*/
+#carousel{
+    width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+.carousel-caption h5{
+    color: black;
+    font-size: 42px;
+    font-weight: 600;
+}
+.carousel-caption p{
+    color: black;
+    font-weight: 300;
+}
+/*---------------------------------section 3--------------------------*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+}
+.heading-text::before{
+    content: '';
+    background: teal;
+    height: 3px;
+    width: 80px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block;
+    transform: translateY(63px);
+}
+/*------------------------------secction 4-------------------------------*/
+#services{
+    background: rgba(245, 245, 245, 0.596);
+}
+.titletext::before{
+    content: '';
+    background: teal;
+    height: 3px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    transform: translateY(63px);
+    text-align: center;
+}
+.row{
+    padding-left: 80px;
+}
+/*-----------------------------section 5----------------------------------*/
+#prices{
+    background: rgba(100, 148, 237, 0.205);
+}
+.btn{
+    margin-top: 50px;
+}
+/*-----------------------------section 6-----------------------------------*/
+#testimonial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonial .row{
+    margin-top: 30px;
+}
+.col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+#testimonial span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+.fas.fa-quote-left::before{
+    content: '\f10d';
+    font-size: 30px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+.fas.fa-quote-right::before{
+    content: '\f10e';
+    font-size: 30px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*---------------------------------footer-------------------------------*/
+#footer{
+    background-image: linear-gradient(to right,#e868c0,#9ef0dd);
+    color: black;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 170px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+   background: blanchedalmond;
+}
+.line{
+    border-left: 2px solid red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    max-width: 250px;
+}
+
+.footer-box .btn-danger{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px; 
+}
+.icon-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+hr{
+    background-color: black;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
